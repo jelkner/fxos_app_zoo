@@ -12,19 +12,25 @@ header, footer {
 }
 main {
     display: table-cell;
+    visibility: hidden;
     width: 100vw;
     text-align: center;
     vertical-align: middle;
     height: 80vh;
     overflow: hidden;
 }
+main.visible {
+    background-color: #000;
+    background-image: url(The_Earth_seen_from_Apollo_17.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    visibility: visible;
+}
 h1 {
     text-align: center;
     font-size: 10vw;
-    visibility: hidden;
-}
-h1.visible {
-    visibility: visible;
+    color: #FF0;
 }
 #show {
     width: 40vw;
