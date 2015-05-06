@@ -14,9 +14,9 @@ main {
     display: table-cell;
     visibility: hidden;
     width: 100vw;
+    height: 80vh;
     text-align: center;
     vertical-align: middle;
-    height: 80vh;
     overflow: hidden;
 }
 main.visible {
