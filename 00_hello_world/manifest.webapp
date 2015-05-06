@@ -1,6 +1,6 @@
 {
-  "name": "Hello World App",
-  "description": "Just what it says, hello world!",
+  "name": "Hello World",
+  "description": "An app that does just what it says, hello world!",
   "launch_path": "/index.html",
   "icons": {
     "128": "/icons/hello-128.png",
