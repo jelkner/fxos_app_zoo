@@ -1,0 +1,13 @@
+{
+  "name": "Hello World App",
+  "description": "Just what it says, hello world!",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icons/hello-128.png",
+    "512": "/icons/hello-512.png"
+  },
+  "developer": {
+    "name": "Jeffrey Elkner",
+    "url": "https://github.com/jelkner/fxos_app_zoo"
+  }
+}

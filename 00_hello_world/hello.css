@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+header, footer {
+    background: #2E64FE; 
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+}
+main {
+    display: table-cell;
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+    height: 80vh;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    font-size: 10vw;
+    visibility: hidden;
+}
+h1.visible {
+    visibility: visible;
+}
+#show {
+    width: 40vw;
+    font-size: 4vw;
+    padding: 0.5rem 0;
+}
