@@ -4,19 +4,32 @@ html, body {
 }
 body {
     font-size: 1rem;
-    background-color: #999;
+    background-color: #E1F1FF;
 }
 h1 {
     margin: 0;
     padding: 1rem;
     font-size: 1.5rem;
     text-align: center;
-    background-color: #CFC;
+    background-color: #9C4;
     border-bottom: 1px solid #000;
 }
 p {
     font-size: inherit;
 }
 #coords, #distance, #accuracy {
-    margin: 5px;
+    display: none;
+}
+#picture {
+    margin: 0;
+    padding: 0;
+}
+#picture img {
+    width: 100vw;
+}
+#button {
+    text-align: center;
+}
+#button button {
+    font-size: 1.3rem;
 }
