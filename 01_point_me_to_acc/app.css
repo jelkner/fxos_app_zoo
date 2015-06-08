@@ -1,18 +1,22 @@
 html, body {
-  margin: 0;
-  padding: 0.5rem;
+    margin: 0;
+    padding: 0;
 }
-
 body {
-  font-size: 1rem;
-  background: #fff;
+    font-size: 1rem;
+    background-color: #999;
 }
-
 h1 {
-  margin: 0 0 1rem 0;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #CFC;
+    border-bottom: 1px solid #000;
 }
-
 p {
-  font-size: inherit;
+    font-size: inherit;
 }
-
+#coords, #distance, #accuracy {
+    margin: 5px;
+}
