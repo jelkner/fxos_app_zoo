@@ -17,9 +17,9 @@ h1 {
 p {
     font-size: inherit;
 }
-#coords, #distance, #accuracy {
+/* #coords, #distance, #accuracy {
     display: none;
-}
+} */
 #picture {
     margin: 0;
     padding: 0;
